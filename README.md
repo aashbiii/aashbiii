@@ -25,9 +25,9 @@
 
   <!-- Interactive Connect & Metrics Badges -->
   <p align="center">
-    <a href="https://linkedin.com/in/ashbisaju"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:ashbisaju2004@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-    <a href="https://github.com/aashbiii/Portfolio"><img src="https://img.shields.io/badge/Portfolio_Website-0D1117?style=flat-square&logo=vercel&logoColor=00f5c4" alt="Portfolio" /></a>
+    <a href="https://linkedin.com/in/ashbi-saju"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="mailto:ashbi1404@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="https://portfolio-omega-seven-10.vercel.app"><img src="https://img.shields.io/badge/Portfolio_Website-0D1117?style=flat-square&logo=vercel&logoColor=00f5c4" alt="Portfolio" /></a>
     <a href="https://github.com/aashbiii?tab=followers"><img src="https://img.shields.io/github/followers/aashbiii?label=Followers&logo=github&style=flat-square&color=21262d&labelColor=161b22" alt="Followers" /></a>
     <img src="https://komarev.com/ghpvc/?username=aashbiii&label=Profile%20Views&color=00f5c4&style=flat-square" alt="Profile Views" />
   </p>
@@ -87,6 +87,7 @@
       <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
       <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+      <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
       <img src="https://img.shields.io/badge/SQL%20(T--SQL%20%2F%20PL--SQL)-4479A1?style=flat-square&logo=mysql&logoColor=white" />
       <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
       <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
@@ -441,15 +442,15 @@
   </p>
 
   <p>
-    <a href="https://linkedin.com/in/ashbisaju">
+    <a href="https://linkedin.com/in/ashbi-saju">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     &nbsp;&nbsp;
-    <a href="mailto:ashbisaju2004@gmail.com">
+    <a href="mailto:ashbi1404@gmail.com">
       <img src="https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
     &nbsp;&nbsp;
-    <a href="https://github.com/aashbiii/Portfolio">
+    <a href="https://portfolio-omega-seven-10.vercel.app">
       <img src="https://img.shields.io/badge/Live_Portfolio-00F5C4?style=for-the-badge&logo=vercel&logoColor=black" alt="Portfolio" />
     </a>
     &nbsp;&nbsp;
