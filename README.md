@@ -5,8 +5,10 @@
 
 <div align="center">
 
-  <!-- Dynamic Waving Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,35:161b22,70:00f5c4,100:7928ca&height=230&section=header&text=Ashbi%20Saju&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=MCA%20Scholar%20%7C%20AI%20%26%20Computer%20Vision%20Engineer%20%7C%20Systems%20Architect&descAlignY=62&descSize=17" width="100%" alt="Ashbi Saju Header Banner" />
+  <!-- Self-Hosted High-Resolution Clean Header Banner (Zero External Dependency) -->
+  <img src="./assets/banner.svg" width="100%" alt="Ashbi Saju Header Banner" />
+
+  <br><br>
 
   <!-- Dynamic Animated Typing SVG -->
   <a href="https://github.com/aashbiii">
@@ -15,10 +17,10 @@
 
   <!-- Status Badges Row -->
   <p align="center">
-    <a href="https://rajagiri.edu/"><img src="https://img.shields.io/badge/MCA%20Scholar-Rajagiri%20RCSS-7928CA?style=for-the-badge&logo=google-scholar&logoColor=white" alt="MCA Scholar" /></a>
-    <img src="https://img.shields.io/badge/Specialization-Computer%20Vision%20%26%20Edge%20AI-00f5c4?style=for-the-badge&logo=pytorch&logoColor=black" alt="Focus" />
-    <img src="https://img.shields.io/badge/Status-Open%20For%20Collaborations-238636?style=for-the-badge&logo=githubactions&logoColor=white" alt="Open For Collaborations" />
-    <img src="https://img.shields.io/badge/Location-Kochi%2C%20India%20🇮🇳-0070F3?style=for-the-badge&logo=google-maps&logoColor=white" alt="Location" />
+    <a href="https://rajagiri.edu/"><img src="https://img.shields.io/badge/MCA%20Scholar-Rajagiri%20RCSS-0d1117?style=flat-square&logo=google-scholar&logoColor=00f5c4" alt="MCA Scholar" /></a>
+    <img src="https://img.shields.io/badge/Specialization-Computer%20Vision%20%26%20Edge%20AI-0d1117?style=flat-square&logo=pytorch&logoColor=00f5c4" alt="Focus" />
+    <img src="https://img.shields.io/badge/Status-Open%20For%20Collaborations-0d1117?style=flat-square&logo=githubactions&logoColor=00f5c4" alt="Open For Collaborations" />
+    <img src="https://img.shields.io/badge/Location-Kochi%2C%20India%20🇮🇳-0d1117?style=flat-square&logo=google-maps&logoColor=00f5c4" alt="Location" />
   </p>
 
   <!-- Interactive Connect & Metrics Badges -->
@@ -32,10 +34,7 @@
 
 </div>
 
-<!-- Animated Glowing Line Divider -->
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt="Glowing Divider" />
-</p>
+---
 
 <!-- ============================================================================== -->
 <!-- ⚡ ABOUT ME SECTION                                                           -->
@@ -61,10 +60,7 @@
   </tr>
 </table>
 
-<!-- Animated Glowing Line Divider -->
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt="Glowing Divider" />
-</p>
+---
 
 <!-- ============================================================================== -->
 <!-- 🛠️ TECHNICAL ARSENAL & SKILLS MATRIX                                          -->
@@ -148,10 +144,7 @@
   </tr>
 </table>
 
-<!-- Animated Glowing Line Divider -->
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt="Glowing Divider" />
-</p>
+---
 
 <!-- ============================================================================== -->
 <!-- 🚀 FEATURED SYSTEMS & RESEARCH SHOWCASE                                       -->
@@ -395,10 +388,7 @@
   </tr>
 </table>
 
-<!-- Animated Glowing Line Divider -->
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt="Glowing Divider" />
-</p>
+---
 
 <!-- ============================================================================== -->
 <!-- 📊 GITHUB ANALYTICS & ACTIVITY MATRIX                                         -->
@@ -408,43 +398,37 @@
   <h3>📊 GitHub Analytics & Activity Matrix</h3>
   <br>
 
-  <!-- Animated Contribution Grid Snake -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aashbiii/aashbiii/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aashbiii/aashbiii/output/github-snake.svg" />
-    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/aashbiii/aashbiii/output/github-snake.svg" width="100%" />
-  </picture>
-  
-  <br><br>
+  <!-- Animated Contribution Grid Snake (Dual-Mode: Dark & Light) -->
+  <p align="center">
+    <img src="./assets/github-snake-dark.svg#gh-dark-mode-only" alt="GitHub Contribution Snake" width="100%" />
+    <img src="./assets/github-snake.svg#gh-light-mode-only" alt="GitHub Contribution Snake" width="100%" />
+  </p>
+
+  <br>
 
   <!-- Streak Stats Card (Animated Flame) -->
-  <img src="https://streak-stats.demolab.com/?user=aashbiii&theme=tokyonight&hide_border=true&stroke=00f5c4&ring=00f5c4&fire=ffd93d&currStreakLabel=00f5c4&background=0D1117" alt="GitHub Streak Stats" width="98%" />
+  <p align="center">
+    <img src="https://streak-stats.demolab.com/?user=aashbiii&theme=tokyonight&hide_border=true&stroke=00f5c4&ring=00f5c4&fire=00f5c4&currStreakLabel=00f5c4&background=0D1117" alt="GitHub Streak Stats" width="98%" />
+  </p>
 
-  <br><br>
+  <br>
 
-  <!-- GitHub Stats & Top Languages Cards -->
-  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border: none; background: transparent;">
-    <tr style="border: none; background: transparent;">
-      <td width="50%" align="center" style="border: none; background: transparent;">
-        <img src="https://github-stats-extended.vercel.app/api?username=aashbiii&show_icons=true&theme=tokyonight&hide_border=true&title_color=00f5c4&text_color=e0e0f0&icon_color=ffd93d&bg_color=0D1117" alt="Ashbi's GitHub Stats" width="95%" />
-      </td>
-      <td width="50%" align="center" style="border: none; background: transparent;">
-        <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=aashbiii&layout=compact&theme=tokyonight&hide_border=true&title_color=00f5c4&text_color=e0e0f0&bg_color=0D1117" alt="Ashbi's Top Languages" width="95%" />
-      </td>
-    </tr>
-  </table>
+  <!-- GitHub Stats & Top Languages Side-by-Side (Clean Paragraph Formatting) -->
+  <p align="center">
+    <img src="https://github-stats-extended.vercel.app/api?username=aashbiii&show_icons=true&theme=tokyonight&hide_border=true&title_color=00f5c4&text_color=e0e0f0&icon_color=00f5c4&bg_color=0D1117" alt="Ashbi's GitHub Stats" width="49%" />
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=aashbiii&layout=compact&theme=tokyonight&hide_border=true&title_color=00f5c4&text_color=e0e0f0&bg_color=0D1117" alt="Ashbi's Top Languages" width="49%" />
+  </p>
 
   <br>
 
   <!-- Dynamic Rotating Tech Quote -->
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Daily Tech Quote" width="80%" />
+  <p align="center">
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Daily Tech Quote" width="80%" />
+  </p>
 
 </div>
 
-<!-- Animated Glowing Line Divider -->
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt="Glowing Divider" />
-</p>
+---
 
 <!-- ============================================================================== -->
 <!-- 📫 CONNECT WITH ME                                                            -->
@@ -475,9 +459,6 @@
   </p>
 
   <br>
-
-  <!-- Dynamic Waving Footer Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7928ca,50:00f5c4,100:0d1117&height=120&section=footer" width="100%" alt="Footer Wave" />
 
   <sub>Crafted with passion, precision & code by <b>Ashbi Saju</b> • Kochi, Kerala, India 🇮🇳</sub>
 
