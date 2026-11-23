@@ -1,88 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="100%" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Ashbi Saju — Software Developer">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0e14" />
-      <stop offset="50%" stop-color="#0d1117" />
-      <stop offset="100%" stop-color="#161b22" />
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0b12"/>
+      <stop offset="1" stop-color="#12101f"/>
     </linearGradient>
-
-    <!-- Accent Gradient -->
-    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f5c4" />
-      <stop offset="100%" stop-color="#00bbf9" />
+    <radialGradient id="glowA" cx="0.85" cy="0.1" r="0.55">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.08" cy="1" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#67e8f9"/>
     </linearGradient>
-
-    <!-- Border Glow Gradient -->
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f5c4" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#1f293d" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#00bbf9" stop-opacity="0.8" />
-    </linearGradient>
-
-    <!-- Grid Pattern -->
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#21262d" stroke-width="0.7" stroke-opacity="0.5" />
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
     </pattern>
-
-    <style>
-      .title {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-        font-size: 44px;
-        font-weight: 800;
-        letter-spacing: -0.5px;
-      }
-      .tagline {
-        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
-        font-size: 15px;
-        font-weight: 500;
-        fill: #8b949e;
-        letter-spacing: 0.5px;
-      }
-      .badge-text {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-        font-size: 11px;
-        font-weight: 600;
-        fill: #00f5c4;
-      }
-    </style>
+    <clipPath id="card"><rect width="1200" height="300" rx="20"/></clipPath>
   </defs>
 
-  <!-- Card Background -->
-  <rect x="2" y="2" width="896" height="196" rx="16" ry="16" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+    <rect width="1200" height="300" fill="url(#glowA)"/>
+    <rect width="1200" height="300" fill="url(#glowB)"/>
 
-  <!-- Subtle Grid Overlay -->
-  <rect x="2" y="2" width="896" height="196" rx="16" ry="16" fill="url(#grid)" />
+    <!-- constellation, echoing the portfolio background -->
+    <g stroke="#a78bfa" stroke-opacity="0.35" stroke-width="1">
+      <line x1="880" y1="70" x2="960" y2="110"/><line x1="960" y1="110" x2="1050" y2="80"/>
+      <line x1="960" y1="110" x2="1010" y2="190"/><line x1="1010" y1="190" x2="1110" y2="210"/>
+      <line x1="1050" y1="80" x2="1130" y2="130"/><line x1="1130" y1="130" x2="1110" y2="210"/>
+    </g>
+    <g fill="#c4b5fd">
+      <circle cx="880" cy="70" r="3"/><circle cx="960" cy="110" r="4"/><circle cx="1050" cy="80" r="3"/>
+      <circle cx="1010" cy="190" r="3"/><circle cx="1110" cy="210" r="4"/><circle cx="1130" cy="130" r="3"/>
+    </g>
+    <g fill="#67e8f9"><circle cx="960" cy="110" r="1.6"/><circle cx="1110" cy="210" r="1.6"/></g>
 
-  <!-- Terminal Top Bar Window Controls -->
-  <circle cx="32" cy="30" r="6" fill="#ff5f56" />
-  <circle cx="52" cy="30" r="6" fill="#ffbd2e" />
-  <circle cx="72" cy="30" r="6" fill="#27c93f" />
+    <!-- status pill -->
+    <g transform="translate(72 58)">
+      <rect width="268" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+      <circle cx="20" cy="16" r="5" fill="#22c55e">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="34" y="21" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" fill="#e5e7eb">Open to internships &amp; full-time roles</text>
+    </g>
 
-  <text x="100" y="34" font-family="ui-monospace, monospace" font-size="12" fill="#484f58">ashbi-saju@portfolio ~ zsh</text>
+    <text x="70" y="168" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="68" font-weight="800" fill="url(#name)" letter-spacing="-1.5">Ashbi Saju<tspan fill="#8b5cf6">.</tspan></text>
 
-  <!-- Right-side pill badge -->
-  <rect x="740" y="20" width="130" height="22" rx="11" fill="#0d2822" stroke="#00f5c4" stroke-width="1" />
-  <circle cx="752" cy="31" r="3.5" fill="#00f5c4" />
-  <text x="762" y="35" class="badge-text">STATUS: ACTIVE</text>
-
-  <!-- Main Hero Content -->
-  <!-- Corner Tech Brackets -->
-  <path d="M 40 85 L 40 70 L 55 70" fill="none" stroke="#00f5c4" stroke-width="2" />
-  <path d="M 860 85 L 860 70 L 845 70" fill="none" stroke="#00f5c4" stroke-width="2" />
-  <path d="M 40 145 L 40 160 L 55 160" fill="none" stroke="#00f5c4" stroke-width="2" />
-  <path d="M 860 145 L 860 160 L 845 160" fill="none" stroke="#00f5c4" stroke-width="2" />
-
-  <!-- Center Text Group -->
-  <g transform="translate(450, 100)" text-anchor="middle">
-    <text y="0" class="title" fill="#ffffff">
-      Hi, I'm <tspan fill="url(#cyanGrad)">Ashbi Saju</tspan> 👋
-    </text>
-    <text y="38" class="tagline">
-      MCA Scholar @ RCSS • AI &amp; Computer Vision Engineer • Systems Architect
-    </text>
+    <text x="72" y="212" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="23" fill="#d1d5db">Software Developer · Backend &amp; Full-Stack · Applied AI</text>
+    <text x="72" y="248" font-family="Consolas, Menlo, monospace" font-size="15" fill="#9ca3af">MCA @ Rajagiri College of Social Sciences  ·  Kochi, Kerala</text>
   </g>
-
-  <!-- Bottom Accent Line -->
-  <line x1="150" y1="180" x2="750" y2="180" stroke="url(#cyanGrad)" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.8" />
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
 </svg>
