@@ -24,7 +24,6 @@ I'm an **MCA student at Rajagiri College of Social Sciences (2025–2027)** who 
 <td width="50%" valign="top">
 
 ### [🚦 AI Traffic Controller](https://github.com/aashbiii/AI-Traffic-Controller-Emergency-Preemption)
-<a href="https://github.com/aashbiii/AI-Traffic-Controller-Emergency-Preemption"><img src="https://raw.githubusercontent.com/aashbiii/AI-Traffic-Controller-Emergency-Preemption/main/docs/screenshots/hardware_demo.jpg" alt="Arduino traffic lights" /></a>
 
 YOLOv5 counts vehicles on each road and adapts the green time. When it spots an ambulance it cuts the other road's green short. It drives real LEDs on an Arduino and has a Flask API plus an Android app for remote override.
 
@@ -34,7 +33,6 @@ YOLOv5 counts vehicles on each road and adapts the green time. When it spots an 
 <td width="50%" valign="top">
 
 ### [⚡ Campus Micro-Grid Optimizer](https://github.com/aashbiii/Campus-Microgrid-IoT-Optimization)
-<a href="https://github.com/aashbiii/Campus-Microgrid-IoT-Optimization"><img src="https://raw.githubusercontent.com/aashbiii/Campus-Microgrid-IoT-Optimization/main/docs/screenshots/dashboard.png" alt="Micro-grid dashboard" /></a>
 
 ESP32 nodes stream power data for 4 labs over MQTT. The system trips a lab's relay after 30 s of idle load and forecasts the next 6 h of demand with Gradient Boosting, all on a live dashboard.
 
@@ -46,7 +44,6 @@ ESP32 nodes stream power data for 4 labs over MQTT. The system trips a lab's rel
 <td width="50%" valign="top">
 
 ### [🛒 E-Commerce Desktop System](https://github.com/aashbiii/ECommerceSystem)
-<a href="https://github.com/aashbiii/ECommerceSystem"><img src="https://raw.githubusercontent.com/aashbiii/ECommerceSystem/main/docs/screenshots/admin_dashboard.png" alt="E-commerce admin dashboard" /></a>
 
 Desktop shop with separate admin and customer apps: product, customer and order management, a cart whose checkout writes the order, line items and stock update in one transaction, and order-status tracking.
 
@@ -56,7 +53,6 @@ Desktop shop with separate admin and customer apps: product, customer and order 
 <td width="50%" valign="top">
 
 ### [🖼️ Fake vs Real Image Detection](https://github.com/aashbiii/Fake-vs-Real-Image-Detection)
-<a href="https://github.com/aashbiii/Fake-vs-Real-Image-Detection"><img src="https://raw.githubusercontent.com/aashbiii/Fake-vs-Real-Image-Detection/main/screenshots/figure4_sample_predictions.jpg" alt="Sample predictions" /></a>
 
 Transfer learning with EfficientNetB0 on the 120k-image CIFAKE dataset to tell AI-generated images from real photos: **87.11 % accuracy** on 20,000 unseen images.
 
@@ -68,7 +64,6 @@ Transfer learning with EfficientNetB0 on the 120k-image CIFAKE dataset to tell A
 <td width="50%" valign="top">
 
 ### [📝 Networked Exam Engine](https://github.com/aashbiii/Networked-Exam-Engine)
-<a href="https://github.com/aashbiii/Networked-Exam-Engine"><img src="https://raw.githubusercontent.com/aashbiii/Networked-Exam-Engine/main/docs/screenshots/admin_main.png" alt="Exam engine admin console" /></a>
 
 Desktop exam platform with admin and student roles, SHA-256 password hashing, timed tests that auto-submit, one attempt per exam and question-by-question scorecards.
 
@@ -78,7 +73,6 @@ Desktop exam platform with admin and student roles, SHA-256 password hashing, ti
 <td width="50%" valign="top">
 
 ### [📸 KuttyStories Photography Booking](https://github.com/aashbiii/photobooking)
-<a href="https://github.com/aashbiii/photobooking"><img src="https://raw.githubusercontent.com/aashbiii/photobooking/main/docs/screenshots/home.jpg" alt="KuttyStories home page" /></a>
 
 Portfolio and booking site for a Kerala photographer: a filterable gallery, a booking form and an admin dashboard. All SQL is hand-written through the DB-API with transactions and parameterised queries.
 
