@@ -45,12 +45,12 @@ ESP32 nodes stream power data for 4 labs over MQTT. The system trips a lab's rel
 <tr>
 <td width="50%" valign="top">
 
-### [🎓 Classroom Engagement Detection](https://github.com/aashbiii/Classroom-Engagement-Detection-YOLO)
-<a href="https://github.com/aashbiii/Classroom-Engagement-Detection-YOLO"><img src="https://raw.githubusercontent.com/aashbiii/Classroom-Engagement-Detection-YOLO/main/docs/predictions.jpg" alt="YOLO11 predictions" /></a>
+### [🛒 E-Commerce Desktop System](https://github.com/aashbiii/ECommerceSystem)
+<a href="https://github.com/aashbiii/ECommerceSystem"><img src="https://raw.githubusercontent.com/aashbiii/ECommerceSystem/main/docs/screenshots/admin_dashboard.png" alt="E-commerce admin dashboard" /></a>
 
-Fine-tuned YOLO11 to detect hand-raising, reading and writing in classroom photos (**70.4 % mAP@0.5**) and turn the detections into an engagement score in a Gradio app.
+Desktop shop with separate admin and customer apps: product, customer and order management, a cart whose checkout writes the order, line items and stock update in one transaction, and order-status tracking.
 
-`PyTorch` `YOLO11` `OpenCV` `Gradio`
+`Java` `Swing` `Oracle 21c` `JDBC`
 
 </td>
 <td width="50%" valign="top">
@@ -94,7 +94,6 @@ Portfolio and booking site for a Kerala photographer: a filterable gallery, a bo
 |---|---|---|
 | [Campus Placement Prediction](https://github.com/aashbiii/Campus-Placement-Prediction-ML) | Predicts placement (XGBoost, 84.3 % accuracy, AUC 0.925) and salary package (Ridge, R² 0.94) | scikit-learn, XGBoost, Pandas |
 | [RCSS Hall Booking](https://github.com/aashbiii/HallBookingSystem) | Android app for booking 5 campus halls with clash detection and an approval workflow | Java, Android SDK, SQLite |
-| [E-Commerce Desktop System](https://github.com/aashbiii/ECommerceSystem) | Admin + customer shopping app with transactional checkout and order tracking | Java Swing, Oracle 21c, JDBC |
 | [MentorSpace](https://github.com/aashbiii/MentorSpace) | Mentor–mentee meeting manager with role-based dashboards, deployable to Render | Django, PostgreSQL |
 | [LPP Graphical Solver](https://github.com/aashbiii/lpp-graphical-solver) · [**live**](https://aashbiii.github.io/lpp-graphical-solver/) | Solves 2-variable linear programs and draws the feasible region | JavaScript, Canvas, Python |
 | [OnShopee](https://github.com/aashbiii/Online-Shopping-Website) · [**live**](https://aashbiii.github.io/Online-Shopping-Website/) | Front-end store with cart, search and an admin product editor | HTML, CSS, JS, Bootstrap |
